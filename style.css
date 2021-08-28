@@ -44,6 +44,13 @@ ul li a {
 }
 
 @media (max-width:650px) {
+  body {
+    overflow:unset;
+    height: 100%;
+  }
+  .mainTitle{
+    margin-top: 35px;
+  }
   ul li{
     width: 100%;
     padding: 25px 0px;
